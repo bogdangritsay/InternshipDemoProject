@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Three Buttons App</string>
+    <string name="main_text">App with 3 buttons</string>
+    <string name="youtube_button_text">Go YouTube</string>
+    <string name="site_button_text">GO 3SS</string>
+    <string name="fragment_button_text">GO FRAGMENT</string>
+    <string name="img_desc">Android Image</string>
+    <string name="youtube_url">https://youtube.com/</string>
+    <string name="site_url">https://3ss.tv/</string>
+    <string name="second_fragment_title">Second</string>
+    <string name="back_title">Back</string>
+    <string name="fr_second_button_text">GO SECOND FRAGMENT</string>
+</resources>

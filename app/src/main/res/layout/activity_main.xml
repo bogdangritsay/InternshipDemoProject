@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/youtube_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:background="@drawable/button_styles"
+            android:onClick="goYouTube"
+            android:text="@string/youtube_button_text"
+            android:textColor="@android:color/white"
+            android:textSize="36dp" />
+
+
+        <Button
+            android:id="@+id/go_site_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:layout_margin="30dp"
+            android:background="@drawable/button_styles"
+            android:onClick="goSite"
+            android:text="@string/site_button_text"
+            android:textColor="@android:color/white"
+            android:textSize="36dp" />
+
+        <Button
+            android:id="@+id/button_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_margin="30dp"
+            android:background="@drawable/button_styles"
+            android:onClick="goFragment"
+            android:text="@string/fragment_button_text"
+            android:textColor="@android:color/white"
+            android:textSize="36dp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</FrameLayout>
